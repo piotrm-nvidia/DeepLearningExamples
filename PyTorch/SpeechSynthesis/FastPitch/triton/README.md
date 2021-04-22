@@ -331,7 +331,7 @@ to the client (Network).
 a completed inference request (Client Receive).
 
 Generally, for local clients, steps 1-4 and 6-8 will only occupy
-a small fraction of time, compared to steps 5-6. As backend deep learning
+a small fraction of time, compared to step 5. As backend deep learning
 systems like Jasper are rarely exposed directly to end users, but instead
 only interfacing with local front-end servers, for the sake of Jasper,
 we can consider that all clients are local.
@@ -419,7 +419,7 @@ Full tabular data
 #### Offline: NVIDIA DGX A100 (1x A100 80GB) with FP16
 
 Our results were obtained using the following configuration:
- * **GPU:** NVIDIA NVIDIA DGX A100 (1x A100 80GB)
+ * **GPU:** NVIDIA DGX A100 (1x A100 80GB)
  * **Backend:** PyTorch
  * **Precision:** FP16
  * **Model format:** TorchScript
@@ -449,7 +449,7 @@ Full tabular data
 #### Offline: NVIDIA DGX A100 (1x A100 80GB) with FP32
 
 Our results were obtained using the following configuration:
- * **GPU:** NVIDIA NVIDIA DGX A100 (1x A100 80GB)
+ * **GPU:** NVIDIA DGX A100 (1x A100 80GB)
  * **Backend:** PyTorch
  * **Precision:** FP32
  * **Model format:** TorchScript
